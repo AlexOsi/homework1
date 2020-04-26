@@ -1,0 +1,64 @@
+body {
+	font-family: Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	font-size: 18px;
+}
+
+#wraper {
+	width: 900px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+header {
+	margin: 40px 0px 20px 0px;
+}
+
+header img {
+	height: 30px;
+}
+
+header img:hover {
+	outline: 1px solid #ff0000;
+}
+
+header p {
+	margin-top: 40px;
+}
+
+header span {
+	font-size: 40px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+header span:after {
+	content: '';
+	display: block;
+	border-top: 3px solid #000;
+	width: 150px;
+	margin: 20px auto;
+}
+
+.students div {
+	display: inline-block;
+	width: 30%;
+	margin-top: 40px;
+}
+
+.students img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.students p {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.students span {
+	font-size: 0.8em;
+	color: lightgray;
+}
